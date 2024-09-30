@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    }
+    
+    body{
+        background-color: #3580db;
+    }
+    
+    
+    
+    h3{
+        font-size: 50px;
+        color: rgb(117, 159, 236);
+    }
+    
+        
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 5%;
+    
+    }
+    
+    header{
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+     
+    .btn{
+        background-color: #4f9cf9;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0.1s ;
+        
+    }
+    
+    .btn:hover{
+        background-color: #3580db;
+    }
+    
+    .banner{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .banner .banner-text{
+        margin: 150px;
+        text-align: center;
+        padding: 0 90px;
+    }
+    
+    .banner .banner-text h1{
+        font-size: 96px;
+        color: #4f9cf9;
+    }
+    
+.pai{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.filho{
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre{
+    margin-top: 50px;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.lr{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre h1{
+    font-size: 70px;
+}
+
+.left{
+    width: 50%;
+    font-size: 30px;
+    margin-top: 50px;
+    height: 100%;
+}
+
+.right img{
+    border-radius: 10px;
+    margin-top: 80px;
+    
+}
+
+.encontrar{
+    margin-top: 50px;
+
+
+}
+
+.encontrar h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.container .mapa{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #151e9b;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  footer section.social a {
+    color: #496ebd;
+    text-decoration: none;
+  }
+  footer section.copyright {
+    color: #204c80;
+    background-color: #afafc7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  .footer-content{
+    display: flex;
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .footer-content >section{
+    flex-basis: calc(100% / 3);
+  }
+  
+  .social ul{
+    display: flex;
+    list-style: none;
+    gap:22px;
+    padding-left: 0;
+    justify-content: center;
+  }
+  
+  
+  
+  .social h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social ul li{
+    text-align: center;
+  }
+  
+  
+  .social ul li a i{
+    border: 3px solid rgb(128, 128, 128);
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .social ul li a i:hover{
+    color: white;
+    background-color: rgb(36, 94, 128);
+  }
+
+
